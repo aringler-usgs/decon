@@ -54,7 +54,7 @@ p2 = plot(t2,tr2.data*1000,'r:',label=tr2.stats.channel)
 p3= plot(t1,resi,'b',label='Residual')
 legend(prop={'size':6})
 #Remember to change this if you change the units
-ylabel(groundunits + ' (mm/s)')
+ylabel(groundunits + ' (mm/s^2)')
 title(tr1.stats.station + ' ' + tr1.stats.location + ' ' + tr1.stats.channel + ': ' + str(tr1.stats.starttime))
 xlim(min(t1),max(t1))
 xlabel('Time (s)')
