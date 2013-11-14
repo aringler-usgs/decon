@@ -1,0 +1,85 @@
+# 
+#                << IRIS SEED Reader, Release 4.8 >>
+#
+#
+#                ======== CHANNEL RESPONSE DATA ========
+B050F03     Station:     DEC01
+B050F16     Network:     GS
+B052F03     Location:    ??
+B052F04     Channel:     CNZ
+B052F22     Start date:  2013,263,19:40:00.0001
+B052F23     End date:    No Ending Time
+#                =======================================
+#                +               +--------------------------------------------+                +
+#                +               |   Response (Poles & Zeros), DEC01 ch BNZ   |                +
+#                +               +--------------------------------------------+                +
+#
+B053F03     Transfer function type:                A [Laplace Transform (Rad/sec)]
+B053F04     Stage sequence number:                 1
+B053F05     Response in units lookup:              M/S**2 - Acceleration in Meters Per Second Per Second
+B053F06     Response out units lookup:             V - Volts
+B053F07     A0 normalization factor:               2.459570E+13
+B053F08     Normalization frequency:               1.000000E+00
+B053F09     Number of zeroes:                      0
+B053F14     Number of poles:                       4
+#                Complex zeroes:
+#                  i  real          imag          real_error    imag_error
+#                Complex poles:
+#                  i  real          imag          real_error    imag_error
+B053F15-18    0 -9.810000e+02  1.009000e+03  0.000000E+00  0.000000E+00
+B053F15-18    1 -9.810000e+02 -1.009000e+03  0.000000E+00  0.000000E+00
+B053F15-18    2 -3.290000e+03  1.263000e+03  0.000000E+00  0.000000E+00
+B053F15-18    3 -3.290000e+03 -1.263000e+03  0.000000E+00  0.000000E+00
+#                
+#                +                  +---------------------------------------+                  +
+#                +                  |       Channel Gain, DEC01 ch BNZ      |                  +
+#                +                  +---------------------------------------+                  +
+#                
+B058F03     Stage sequence number:                 1
+B058F04     Gain:                                  1.020700e+00
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#                
+#                +               +-------------------------------------------+                 +
+#                +               |   Response (Coefficients), DEC01 ch BNZ   |                 +
+#                +               +-------------------------------------------+                 +
+#                
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 2
+B054F05     Response in units lookup:              V - Volts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  1
+B054F10     Number of denominators:                0
+#                Numerator coefficients:
+#                  i, coefficient,  error
+B054F08-09    0  1.000000e+00  0.000000E+00
+#                
+#                +                      +------------------------------+                       +
+#                +                      |   Decimation, DEC01 ch BNZ   |                       +
+#                +                      +------------------------------+                       +
+#                
+B057F03     Stage sequence number:                 2
+B057F04     Input sample rate:                     5.000000e+02
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             0.00000E+00
+B057F08     Correction applied (seconds):          0.00000E+00
+#                
+#                +                  +---------------------------------------+                  +
+#                +                  |       Channel Gain, DEC01 ch BNZ      |                  +
+#                +                  +---------------------------------------+                  +
+#                
+B058F03     Stage sequence number:                 2
+B058F04     Gain:                                  6.291290e+05
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#                
+#                +                  +---------------------------------------+                  +
+#                +                  |       Channel Gain, DEC01 ch BNZ      |                  +
+#                +                  +---------------------------------------+                  +
+#                
+B058F03     Stage sequence number:                 0
+B058F04     Sensitivity:                           6.421500e+05
+B058F05     Frequency of sensitivity:              1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#                
